@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.JPG'
-import {FaAward} from 'react-icons/fa'
+import {FaMedal} from 'react-icons/fa'
 import {MdSchool} from 'react-icons/md'
 import {GiTexas} from 'react-icons/gi'
 
@@ -21,7 +21,7 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaMedal className='about__icon'/>
               <h5>Expirence</h5>
               <small>4+ years of coding</small>
             </article>
