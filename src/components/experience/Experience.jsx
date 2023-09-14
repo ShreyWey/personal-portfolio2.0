@@ -68,29 +68,29 @@ const Experience = () => {
             <article className="expirence__details">
               <FaAward className='experience__details-icon'/>
               <div>
-                <h4>Cyber Security for Linux and Windows Systems</h4>
+                <h4>Soldering</h4>
+                <small className='text-light'>Novice</small>
+              </div>
+            </article>
+            <article className="expirence__details">
+              <FaAward className='experience__details-icon'/>
+              <div>
+                <h4>PCB Design with Altium</h4>
+                <small className='text-light'>Novice</small>
+              </div>
+            </article>
+            <article className="expirence__details">
+              <FaAward className='experience__details-icon'/>
+              <div>
+                <h4>Aurduino</h4>
                 <small className='text-light'>Expirenced</small>
               </div>
             </article>
             <article className="expirence__details">
               <FaAward className='experience__details-icon'/>
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Expirenced</small>
-              </div>
-            </article>
-            <article className="expirence__details">
-              <FaAward className='experience__details-icon'/>
-              <div>
-                <h4>Svelte</h4>
-                <small className='text-light'>Expirenced</small>
-              </div>
-            </article>
-            <article className="expirence__details">
-              <FaAward className='experience__details-icon'/>
-              <div>
-                <h4>Java / Type Script</h4>
-                <small className='text-light'>Expirenced</small>
+                <h4>Raspberry Pi</h4>
+                <small className='text-light'>Novice</small>
               </div>
             </article>
           </div>

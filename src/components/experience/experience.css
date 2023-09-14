@@ -39,3 +39,26 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+/*MED DEVICES*/
+@media screen  and (max-width: 1024px ) {
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto
+    }
+
+    .experience__conetnt {
+        padding: 1rem;
+    }
+}
+
+
+/*SML DEVICES*/
+@media screen and (max-width: 600px) {
+
+}
