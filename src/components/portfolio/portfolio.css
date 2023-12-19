@@ -32,3 +32,18 @@
     place-items: center;
 }
 
+/* MEDIA QUERIES  (MED. DEVICES) */
+@media screen and (max-witdth: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* MEDIA QUERIES  (MED. DEVICES) */
+@media screen and (max-witdth: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
