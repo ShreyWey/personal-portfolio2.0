@@ -21,17 +21,22 @@ const Contact = () => {
             <FaLinkedin />
             <h4>LinkedIn</h4>
             <h5>Shreyansh Chhalotra</h5>
-            <a href="/" target="_blank">Connect with me</a>
+            <a href="https://www.linkedin.com/in/shrey2004/" target="_blank">Connect with me</a>
           </article>
           <article className="contact__option">
             <MdOutlineEmail />
             <h4>Insta</h4>
             <h5>Shrey_2_good</h5>
-            <a href="mailto:shreyansh.chhalotra@gmail.com" target="_blank">Follow me</a>
+            <a href="https://www.instagram.com/shrey_2_good" target="_blank">Follow me</a>
           </article>
         </div>
         {/* end of contact options */}
-        <form action=""></form>
+        <form action="">
+          <input type="text" name='name' placeholder='Your Name' required/>
+          <input type="email" name="wmail" placeholder='Your Email' required />
+          <textarea name="message" rows="7" placeholder='Your Message' reuired></textarea>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+        </form>
       </div>
     </section>
   )
