@@ -12,19 +12,19 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>Shreyansh.chhalotra@gmail.com</h5>
             <a href="mailto:shreyansh.chhalotra@gmail.com" target="_blank">Email me</a>
           </article>
           <article className="contact__option">
-            <FaLinkedin />
+            <FaLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Shreyansh Chhalotra</h5>
             <a href="https://www.linkedin.com/in/shrey2004/" target="_blank">Connect with me</a>
           </article>
           <article className="contact__option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className='contact__option-icon'/>
             <h4>Insta</h4>
             <h5>Shrey_2_good</h5>
             <a href="https://www.instagram.com/shrey_2_good" target="_blank">Follow me</a>
