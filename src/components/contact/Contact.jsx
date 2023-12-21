@@ -7,12 +7,12 @@ import {useRef} from 'react';
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
-  const  from = useRef();
+  const  form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_l7ejbo9', 'template_et9z678', form.current, 'TSSX0R63TU1fCgJsR')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -46,7 +46,7 @@ const Contact = () => {
           </article>
         </div>
         {/* end of contact options */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Name' required/>
           <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' reuired></textarea>
