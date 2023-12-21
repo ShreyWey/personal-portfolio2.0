@@ -64,6 +64,10 @@
 
 /*SML DEVICES*/
 @media screen and (max-width: 600px) {
+    #expirence {
+        margin-top: 25rem;
+    }
+    
     .experience__container {
         gap: 1rem;
     }
