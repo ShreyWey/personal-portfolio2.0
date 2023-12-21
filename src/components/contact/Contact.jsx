@@ -33,7 +33,7 @@ const Contact = () => {
         {/* end of contact options */}
         <form action="">
           <input type="text" name='name' placeholder='Your Name' required/>
-          <input type="email" name="wmail" placeholder='Your Email' required />
+          <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' reuired></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>

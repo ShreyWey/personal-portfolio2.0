@@ -48,9 +48,10 @@ input, textarea {
     padding: 1.5rem;
     border-radius: .5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 3px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    font-size: large;
 }
 
 /*MEDIA QUERIE (MED. DEVICES)*/
@@ -64,6 +65,7 @@ input, textarea {
 /*MEDIA QUERIE (SML. DEVICES)*/
 @media screen  and (max-width: 600px) {
     .container.contact__container {
+        grid-template-columns: 1fr;
         width: var(--container-width-sm);
     }
 }
