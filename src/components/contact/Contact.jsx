@@ -2,9 +2,24 @@ import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-
+import { FaInstagram } from "react-icons/fa6";
+import React, {useRef} from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const  from = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
   return (
     <section id='contact'>
       <h5>Lets Talk</h5>
@@ -24,7 +39,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/shrey2004/" target="_blank">Connect with me</a>
           </article>
           <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon'/>
+            <FaInstagram className='contact__option-icon'/>
             <h4>Insta</h4>
             <h5>Shrey_2_good</h5>
             <a href="https://www.instagram.com/shrey_2_good" target="_blank">Follow me</a>
