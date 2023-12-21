@@ -4,6 +4,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi'
 import {AiFillCode} from 'react-icons/ai'
 import {AiOutlineMessage} from 'react-icons/ai'
+import { VscFileSubmodule } from "react-icons/vsc";
 import {useState} from 'react'
 
 const Nav = () => {
@@ -13,7 +14,7 @@ const Nav = () => {
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUserCircle/></a>
       <a href="#expirence" onClick={() => setActiveNav('#expirence')} className={activeNav === '#expirence' ? 'active' : ''}><AiFillCode/></a>
-      {/* <a href="#portfolio">Portfolio</a> */}
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><VscFileSubmodule/></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage/></a>
     </nav>
   )
