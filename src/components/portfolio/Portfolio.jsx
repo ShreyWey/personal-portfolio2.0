@@ -13,35 +13,35 @@ const data = [
     {
         id: 1,
         image: img1,
-        title: 'project title',
-        github: '/'
+        title: 'first portfolio website',
+        github: 'https://github.com/ShreyWey/PersonalPage'
     },
     {
-        id: 1,
+        id: 2,
         image: img2,
-        title: 'project title',
-        github: '/'
+        title: 'RevTube',
+        github: 'https://github.com/aggie-coding-club/RevTube/tree/main'
     },
     {
-        id: 1,
+        id: 3,
         image: img3,
-        title: 'project title',
-        github: '/'
+        title: 'AeroCheck',
+        github: 'https://github.com/Immortal000/aero.check/tree/main'
     },
     {
-        id: 1,
+        id: 4,
         image: img4,
         title: 'project title',
         github: '/'
     },
     {
-        id: 1,
+        id: 5,
         image: img5,
         title: 'project title',
         github: '/'
     },
     {
-        id: 1,
+        id: 6,
         image: img6,
         title: 'project title',
         github: '/'
