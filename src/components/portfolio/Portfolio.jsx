@@ -31,19 +31,19 @@ const data = [
     {
         id: 4,
         image: img4,
-        title: 'project title',
+        title: 'Coming soon',
         github: '/'
     },
     {
         id: 5,
         image: img5,
-        title: 'project title',
+        title: 'Coming soon',
         github: '/'
     },
     {
         id: 6,
         image: img6,
-        title: 'project title',
+        title: 'Coming soon',
         github: '/'
     }
 ]
