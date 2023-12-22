@@ -24,3 +24,10 @@ footer a {
     gap: 2rem;
     margin: 0 auto 3rem;
 }
+
+/*MEDIA QUERIE (SML. DEVICES)*/
+@media screen  and (max-width: 600px) {
+    footer {
+        margin-top: 30rem;
+    }
+}
