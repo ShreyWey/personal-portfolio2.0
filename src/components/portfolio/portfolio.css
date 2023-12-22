@@ -43,7 +43,7 @@
 /* MEDIA QUERIES  (SML. DEVICES) */
 @media screen and (max-width: 600px) {
     #portfolio {
-        margin-top: 50rem;
+        margin-top: 35rem;
     }
     
     .portfolio__container {

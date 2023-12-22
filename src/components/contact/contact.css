@@ -65,7 +65,7 @@ input, textarea {
 /*MEDIA QUERIE (SML. DEVICES)*/
 @media screen  and (max-width: 600px) {
     #contact {
-        margin-top: 130rem;
+        margin-top: 125rem;
     }
     .container.contact__container {
         grid-template-columns: 1fr;
