@@ -40,10 +40,10 @@
     }
 }
 
-/* MEDIA QUERIES  (MED. DEVICES) */
-@media screen and (max-witdth: 600px) {
+/* MEDIA QUERIES  (SML. DEVICES) */
+@media screen and (max-width: 600px) {
     .portfolio__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1f;
         gap: 1rem;
     }
 }
