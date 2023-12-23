@@ -22,35 +22,35 @@ const Experience = () => {
               <FaAward className='experience__details-icon'/>
               <div>
                 <h4>Cyber Security for Linux and Windows Systems</h4>
-                <small className='text-light'>Expirenced</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="expirence__details">
               <FaAward className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Expirenced</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="expirence__details">
               <FaAward className='experience__details-icon'/>
               <div>
                 <h4>Svelte</h4>
-                <small className='text-light'>Expirenced</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="expirence__details">
               <FaAward className='experience__details-icon'/>
               <div>
                 <h4>Java / Type Script</h4>
-                <small className='text-light'>Expirenced</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="expirence__details">
               <FaAward className='experience__details-icon'/>
               <div>
                 <h4>C++</h4>
-                <small className='text-light'>Expirenced</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
@@ -83,7 +83,7 @@ const Experience = () => {
               <FaAward className='experience__details-icon'/>
               <div>
                 <h4>Aurduino</h4>
-                <small className='text-light'>Expirenced</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="expirence__details">
