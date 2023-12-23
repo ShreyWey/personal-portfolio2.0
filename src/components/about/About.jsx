@@ -40,7 +40,8 @@ const About = () => {
           </div>
 
           <p>
-          I'm baby williamsburg photo booth taxidermy banh mi locavore cardigan flexitarian bespoke poutine chicharrones 90's cornhole cray. Flexitarian tbh kickstarter stumptown succulents, readymade neutra solarpunk four loko hammock chillwave. Vexillologist organic messenger bag, venmo raclette ethical twee polaroid sustainable thundercats 8-bit. Cliche fit lomo poutine portland iceland affogato shaman hashtag cronut semiotics neutral milk hotel. Mukbang portland bespoke taiyaki hammock. Vice pickled microdosing blog, af listicle artisan paleo yes plz photo booth yuccie praxis four dollar toast ugh live-edge. Readymade dreamcatcher normcore cornhole vegan skateboard.
+          
+          I am a versatile computer engineer proficient in delivering both software and hardware solutions. My portfolio includes the creation of various software applications, including the one you are currently utilizing. Beyond coding, I am a member of SAE Formula E team, where we design and compete with electric racing cars on an international level. This involvement has granted me valuable automotive experience, particularly in the realm of electronics and data acquisition. I am also now capable of using industry-standard software like KiKad, Altium, RapidHarness, and Race Studio. I also hold certifications in R and Python from the High-Performance Research Computing program at Texas A&M University. This certification has not only expanded my expertise but also provided me with access to and experience in utilizing HPRC clusters.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
