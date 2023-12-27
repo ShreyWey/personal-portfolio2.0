@@ -31,8 +31,8 @@ const data = [
     {
         id: 4,
         image: img4,
-        title: 'Coming soon',
-        github: '/'
+        title: 'Hangman.py',
+        github: 'https://github.com/ShreyWey/HangmanPy'
     },
     {
         id: 5,
