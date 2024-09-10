@@ -31,8 +31,8 @@ const data = [
     {
         id: 4,
         image: img4,
-        title: 'Hangman.py',
-        github: 'https://github.com/ShreyWey/HangmanPy'
+        title: 'MSP 432 Assembly Reaction Game',
+        github: 'https://github.com/ShreyWey/ReactionGame'
     },
     {
         id: 5,
