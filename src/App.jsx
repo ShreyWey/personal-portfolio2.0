@@ -6,6 +6,7 @@ import Experience from './components/experience/Experience'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/Portfolio'
+import { Analytics } from '@vercel/analytics/react';
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
         <Portfolio />
         <Contact /> 
         <Footer />
+        <Analytics />
     </>
   )
 }
